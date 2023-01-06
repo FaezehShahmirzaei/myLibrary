@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>books</title>
+</head>
+<body>
+<table>
+    {% for b in books %}
+        <tr>{{ b.title }}</tr>
+        <tr>{{ b.price }}</tr>
+        <br>
+    {% endfor %}
+</table>
+</body>
+</html>
